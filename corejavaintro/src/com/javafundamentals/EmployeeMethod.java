@@ -33,6 +33,8 @@ public class EmployeeMethod {
 		employeegender(gen);
 		employeephone(ph);
 		
+		sc.close();
+		
 		
 		
 		System.out.println("Main method ended");
