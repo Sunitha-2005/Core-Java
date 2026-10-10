@@ -2,27 +2,34 @@ package com.javafundamentals;
 import java.util.Scanner;
 public class Studentinfo {
 
-	public static void main(String[] args) {
+	 void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("main method started");
-		
 		System.out.println("Enter student age :");
 		int age = sc.nextInt();
-		getStudentAge(age);
+		
 		
 		
 		System.out.println("Enter student weight :");
 		double weight=sc.nextDouble();
 		
-		System.out.println("Enter student height :");
-		double height=sc.nextInt();
 		
-		//Studentinfo st = new Studentinfo();
-		//System.out.println("main method started");
+		System.out.println("Enter student height :");
+		double height=sc.nextDouble();
+		
+		
+	
 		
 		System.out.println("Enter student salary:");
 		double sal = sc.nextDouble();
+		
+		
+		getStudentAge( age);
+		getStudentweight(weight);
+		getStudentheight(height);
+		getStudentsal(sal);
+		
 		
 		
 		System.out.println("main method ended");
@@ -36,7 +43,7 @@ public class Studentinfo {
 		System.out.println("student weight is :" +weight);
 	}
 	void getStudentsal(double salary) {
-		System.out.println("Student salary is: " + salary);
+		System.out.println("Student current salary is: " + salary);
 	}
 	void getStudentheight(double height) {
 		System.out.println("Student height is :" + height);
