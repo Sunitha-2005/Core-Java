@@ -1,5 +1,4 @@
 package com.LogicalStatements;
-
 //WAP to print days info String
 import java.util.Scanner;
 
