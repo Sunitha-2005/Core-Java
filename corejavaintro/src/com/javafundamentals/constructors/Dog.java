@@ -1,4 +1,10 @@
 package com.javafundamentals.constructors;
+//this and super are the keyword in java
+//this is a keyword to invoke current class object data members;
+//super is the keyword to invoke parent class object dataembers.
+//this and super we can use in instance methods & constructors but not in static  methods.
+
+
  class  Animal{
 	 int age=5;
 	 String breed="Labrador Retriever";
@@ -19,7 +25,9 @@ public class Dog extends Animal{
 	}
 	void dogInfo() {
 		System.out.println("Age of the Dog: " +super.age);
-		System.out.println("Age of the Dog: " +super.breed);
+		System.out.println("bread of the Dog: " +super.breed);
+		
+		
 		
 		System.out.println("************child******");
 		
