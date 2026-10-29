@@ -25,9 +25,8 @@ public class Calculation {
 			System.out.println("invalid result");
 		}
 		}
-		System.out.println("The entered result is : " +result);
+		System.out.println("The  result value is : " +result);
 		
-		// TODO Auto-generated method stub
 
 	}
 
