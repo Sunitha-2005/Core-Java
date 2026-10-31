@@ -8,12 +8,12 @@ public class AreaOfall {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter length of a traingle");
-		double are=sc.nextDouble();
+		double length=sc.nextDouble();
 		
 		
 		System.out.println("Enter breadth of a traingle");
 		double bre=sc.nextDouble();
-		double ar=trianglearea(bre,are);
+		double ar=trianglearea(bre,length);
 		System.out.println(ar);
 		 
 		System.out.println("Enter radius");
@@ -23,11 +23,7 @@ public class AreaOfall {
 		System.out.println(arr);
 		
 		sc.close();
-		
-		
-		
-		
-		
+	
 
 	}
 	double trianglearea(double l, double b) {
